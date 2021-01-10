@@ -10,15 +10,15 @@ function TodoFooter({ setFilter, todoLen, setClear }) {
 
       <ul className="filters">
         <li>
-          <a className="selected" onClick={() => setFilter("All")}>
+          <a href="#" className="selected" onClick={() => setFilter("All")}>
             All
           </a>
         </li>
         <li>
-          <a onClick={() => setFilter("Active")}>Active</a>
+          <a href = "#" onClick={() => setFilter("Active")}>Active</a>
         </li>
         <li>
-          <a onClick={() => setFilter("Completed")}>Completed</a>
+          <a href="#" onClick={() => setFilter("Completed")}>Completed</a>
         </li>
       </ul>
 
